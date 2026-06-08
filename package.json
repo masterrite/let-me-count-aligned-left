@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KrabsWong/let-me-count"
+    "url": "https://github.com/masterrite/let-me-count-left-aligned"
   },
   "engines": {
     "vscode": "^1.84.0"
