@@ -1,6 +1,6 @@
 {
-  "name": "let-me-count-left-aligned-statusbar",
-  "displayName": "Let me count (Left Aligned)",
+  "name": "let-me-count-in-left-corner",
+  "displayName": "Let me count (in left corner)",
   "description": "Your friendly companion that counts words and characters, supporting multiple languages, aligned to the left in the status bar. Fork from KrabsWong/let-me-count",
   "version": "1.0.3",
   "publisher": "Masterrite",
