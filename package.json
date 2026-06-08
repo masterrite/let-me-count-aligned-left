@@ -45,6 +45,8 @@
   "l10n": "./l10n",
   "files": [
     "extension.js",
-    "l10n/**"
+    "l10n/**",
+    "images/**",
+    "LICENSE"
   ]
 }
