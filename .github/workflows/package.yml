@@ -45,3 +45,4 @@ jobs:
         with:
           files: "*.vsix"
           fail_on_unmatched_files: true
+          token: ${{ secrets.fork_release_token }}
