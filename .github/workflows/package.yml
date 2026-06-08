@@ -9,7 +9,7 @@ on:
 
 jobs:
   build-and-package:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - name: Checkout Source Code
@@ -19,7 +19,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-size: 20
-          cache: 'npm'
 
       - name: Install Dependencies
         run: npm install
@@ -28,7 +27,7 @@ jobs:
         run: npm run vscode:prepublish --if-present
 
       - name: Package VSIX
-        run: npx @vscode/vsce package
+        run: npx @vscode/vsce package --no-dependencies
 
       - name: Upload VSIX Artifact
         uses: actions/upload-artifact@v4
