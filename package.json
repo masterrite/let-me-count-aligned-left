@@ -1,9 +1,9 @@
 {
-  "name": "let-me-count",
-  "displayName": "Let me count",
-  "description": "Your friendly companion that counts words and characters, supporting multiple languages",
+  "name": "let-me-count-left-aligned",
+  "displayName": "Let me count (LA)",
+  "description": "Your friendly companion that counts words and characters, supporting multiple languages, aligned to the left in the status bar. Fork from KrabsWong/let-me-count",
   "version": "1.0.3",
-  "publisher": "KrabsWong",
+  "publisher": "Masterrite",
   "author": {
     "name": "KrabsWong"
   },
