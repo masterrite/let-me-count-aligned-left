@@ -24,7 +24,7 @@ function activate(context) {
   }
 
   // 创建状态栏项
-  const statusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 100);
+  const statusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.left);
   context.subscriptions.push(statusBarItem);
 
   // 添加文本变化事件监听器
